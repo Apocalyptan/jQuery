@@ -1,7 +1,6 @@
 $("body").css("background-color", "lightgrey");
 $("body").css("text-align", "center");
 
-
 /*
 Element Changes
 */
@@ -38,4 +37,4 @@ Alerts
 */
 $("button").click(function() {
 	alert($(this).attr("data-tmp"));
-})
+});
