@@ -1,0 +1,43 @@
+body {
+	margin: 10px auto;
+	background-color: grey;
+}
+
+h2 {
+	margin-top: 50px;
+	text-align: center;
+	font-family: sans-serif;
+}
+
+#carousel {
+	border: 3px solid black;
+	width: 750px;
+	height: 450px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+#carousel ul {
+	list-style-type: none;
+	-webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 0px;
+	margin: 0;
+	width: 2000px;
+	text-align: center;
+	display: inline-block;
+}
+
+#carousel ul li {
+	width: 750px;
+	height: 450px;
+	float: left;
+}
+
+#carousel ul li img {
+	width: 750px;
+	height: 450px;
+	margin: 0 auto;
+}
