@@ -1,20 +1,24 @@
 body {
 	margin: 10px auto;
 	background-color: grey;
+	color: #fff;
 }
 
-h2 {
-	margin-top: 50px;
-	text-align: center;
-	font-family: sans-serif;
+.fa:hover {
+	cursor: pointer;
 }
 
+/**
+ * Carousel General
+ */ 
 #carousel {
 	border: 3px solid black;
-	width: 750px;
-	height: 450px;
+	width: 400px;
+	height: 350px;
 	margin: 0 auto;
+	margin-top: 50px;
 	overflow: hidden;
+	position: relative;
 }
 
 #carousel ul {
@@ -27,17 +31,61 @@ h2 {
 	margin: 0;
 	width: 2000px;
 	text-align: center;
-	display: inline-block;
 }
 
 #carousel ul li {
-	width: 750px;
-	height: 450px;
+	width: 400px;
+	height: 350px;
 	float: left;
 }
 
 #carousel ul li img {
-	width: 750px;
-	height: 450px;
+	width: 400px;
+	height: 350px;
 	margin: 0 auto;
+}
+
+/**
+* Arrows
+*/
+#carousel .arrows {
+ 	position: absolute;
+ 	top: 0;
+ 	left: 0;
+ 	width: 100%;
+ 	height: 350px;
+}
+
+#carousel .arrows .fa-arrow-left,
+#carousel .arrows .fa-arrow-right {
+	position: absolute;
+	top: 45%;
+	opacity: 0.5;
+	font-size: 30px;
+}
+#carousel .arrows .fa-arrow-right {
+	left: 90%;
+}
+#carousel .arrows .fa-arrow-left {
+	right: 90%;
+}
+#carousel .arrows .fa:hover {
+	opacity: 1;
+}
+
+
+/** 
+ * Nav indicators 
+ */
+#carousel .nav {
+ 	position: absolute;
+ 	top: 90%;
+ 	text-align: center;
+ 	width: 100%;
+ 	height: 350px;
+ 	font-size: 20px;
+}
+
+#carousel .nav .fa-circle {
+	opacity: 0.8;
 }
