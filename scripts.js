@@ -37,7 +37,7 @@ $(document).ready(function() {
 	};
 
 	/**
- 	 *	Arrow Click Functions
+ 	 * Arrow Click Functions
  	 */
 	$(".fa-arrow-left").click(function() {
 		prevSlide();
