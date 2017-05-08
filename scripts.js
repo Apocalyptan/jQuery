@@ -1,7 +1,7 @@
 $(document).ready(function() {
 	var carouselList = $('#carousel ul');
 	
-	setInterval(nextSlide, 7000); /Slide Auto Change
+	setInterval(nextSlide, 7000); //Slide Auto Change
 
 	/**
 	 * Carousel Functions
